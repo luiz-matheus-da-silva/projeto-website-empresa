@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+    --mainFont: 'Acumin Variable Concept', sans-serif;
+    --secondaryFont: 'Expletus Sans', cursive;
+    --bg-color: rgb(242, 242, 242);
+    --primary: rgb(40, 54, 24);
+    --hover: rgb(35, 95, 65);
+    --third: rgb(94, 94, 94);
+    --fourth: rgb(82, 82, 82);
+    --dark: #000;
+    --light: #FFF;
+}
+
+body {
+    font-family: var(--mainFont) !important;
+    background-color: #F2F2F2;
+}
+
+
+nav a {
+    color: var(--dark) !important;
+}
+
+nav a:hover {
+    color: var(--primary) !important;
+    text-decoration: underline;
+}
+
+#header {
+    margin-top: 186px;
+}
+
+#btn-1 {
+    background-color: var(--primary);
+    border-radius: 10px;
+    outline: none !important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.45);
+    border: none;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+#btn-1 a {
+    text-decoration: none;
+    color: white !important;
+}
+
+#btn-1:hover {
+    background-color: var(--hover);
+    transition: 0.6s;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.full-height {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container h1 {
+    color: var(--hover) !important;
+    font-size: 45px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+}
+
+span {
+    color: var(--primary) !important;
+    font-weight: 700 !important;
+}
+
+.spanTitle {
+    color: var(--primary) !important;
+    font-weight: 900 !important;
+}
+
+#subtitle {
+    color: var(--third) !important;
+    font-size: 24px !important;
+    font-weight: 400 !important;
+}
+
+#section1 {
+    margin-top: 300px;
+}
+
+#section1 h2 {
+    text-align: center !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--fourth);
+    font-size: 60px !important;
+    margin-top: 25px;
+}
+
+#section2 {
+    margin-top: 300px;
+}
+
+#section2 h2 {
+    color: var(--primary);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#section2 p {
+    text-align: justify;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300 !important;
+    line-height: normal;
+}
+
+#section2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ia {
+    color: var(--primary);
+}
+
+.circle-container,
+.circle-white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 95px auto;
+    box-shadow: 0px 4px 30px 3px rgba(0, 0, 0, 0.25)
+}
+
+.circle img {
+    width: 91px;
+    height: 91px;
+    margin-bottom: 10px;
+}
+
+.circle p {
+    color: var(--dark) !important;
+    text-align: center;
+    font-size: 40px !important;
+    font-weight: 900 !important;
+    line-height: normal;
+}
+
+#ia-ex {
+    color: var(--dark) !important;
+    font-size: 28px;
+    font-weight: 500 !important;
+}
+
+#section2 {
+    margin-top: 140px;
+}
+
+.circle-white,
+.circle-white2 {
+    width: 218px;
+    height: 218px;
+    border-radius: 50%;
+    background-color: var(--light);
+    box-shadow: 0px 4px 30px 3px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.circle-white img,
+.circle-white2 img {
+    width: 100px;
+    height: 100px;
+}
+
+.circle-white p,
+.circle-white2 p {
+    color: var(--dark) !important;
+    text-align: center;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+}
+
+.square1,
+.square2 {
+    background: var(--bg-color);
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+h4 {
+    color: var(--primary);
+    text-align: justify;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.square1 p {
+    color: var(--dark);
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h5 {
+    color: var(--primary);
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.squareTec {
+    width: 90px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: rgba(85, 12, 24, 0.09);
+}
+
+footer {
+    background-color: #B9B9B9;
+    width: 100vh;
+    flex-shrink: 0;
+    border-radius: 50px 50px 0px 0px;
+    color: #161c0e;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--dark);
+}
+
+footer a:hover {
+    color: var(--primary);
+}
+
+footer .container {
+    font-weight: 600;
+}
+
+.contentFooter {
+    margin-top: 80px;
+}
+
+.copyright {
+    margin-top: 70px;
+    color: var(--dark);
+    font-weight: 400;
+}
+
+/* Animação de pulsação suave */
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.pulsating-title {
+    animation: pulse 3s infinite;
+}
+
+/* Animação de flutuação suave */
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.header-image {
+    animation: float 4s ease-in-out infinite;
+}
+
+/* Efeito de fade nas seções */
+.fade-section {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-section.active {
+    opacity: 1;
+}
+
+@media (max-width: 1300px) {
+    .container h1,
+    #section2 h2,
+    #section1 h2 {
+        font-size: 2em !important;
+    }
+
+    .container p,
+    #section2 p,
+    #section1 p {
+        font-size: 1.25em;;
+        text-align: center !important;
+    }
+
+    #header {
+        margin-top: 0px;
+    }
+
+    #ia-ex {
+        font-size: 20px;
+        font-weight: 500 !important;
+    }
+
+    #section1,
+    #section2 {
+        margin-top: 40px;
+    }
+
+    .circle,
+    .circle-white,
+    .circle-white2 {
+        width: 150px;
+        height: 150px;
+        margin: 20px auto;
+    }
+
+    .circle img,
+    .circle-white img,
+    .circle-white2 img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .circle p,
+    .circle-white p,
+    .circle-white2 p {
+        font-size: 18px !important;
+    }
+
+    .square1,
+    .square2 {
+        margin-left: 0px;
+    }
+}
